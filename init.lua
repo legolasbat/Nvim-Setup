@@ -4,6 +4,9 @@ vim.opt.number=true
 
 vim.opt.smartindent=true
 
+vim.opt.foldmethod= "syntax"
+vim.opt.foldlevel = 99
+
 require("config.lazy")
 
 vim.lsp.enable({ "clangd" })
